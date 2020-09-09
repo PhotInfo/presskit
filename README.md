@@ -1,13 +1,14 @@
-<img src="https://www.dropbox.com/s/h58vm0205qnu6pq/PhotInfo_icon1024.png?raw=1"
+<img src="https://www.dropbox.com/s/jaevv0v28r7zfx7/76.png?raw=1"
      alt="PhotInfo icon"
      style="float: left; margin-right: 10px; width: 64px; height: 64px" />
-#PhotInfo 6.00
 
-##Press Kit
+# PhotInfo 6.00
+
+## Press Kit
 
 PhotInfo is an app to control all the information (location, date, camera, focal length, etc.) contained in your photos.
 
-##Why PhotInfo
+## Why PhotInfo
 
 Digital cameras (including those in mobile devices) add some metadata to the photos they take. These data are called Exif tags. They provide an opportunity to learn not only the exact date and time of the shoot, but also parameters such as exposure time, shutter speed, image resolution, device model, ISO, focal length, whether the flash was used, etc.
 
@@ -21,7 +22,7 @@ An user wrote me that she use the app in a photography course she teaches in Cal
 
 
 
-##Features
+## Features
 
 With PhotInfo you can:
 
@@ -48,7 +49,7 @@ With PhotInfo you can:
 
 PhotInfo app is in **costant development**, so new features will be added soon. Download now and stay tuned!
 
-##Uniqueness
+## Uniqueness
 
 What makes this app unique are:
 
@@ -57,23 +58,23 @@ What makes this app unique are:
  * the possibility to see the tags in raw format or in a more human readable one
  * the toolbar that allows the user to favorite, hide or delete a picture 
 
-##Other
+## Other
 
-####Screenshots
+#### Screenshots
 
 * [11 Pro Max](https://www.dropbox.com/s/otu6kr60wy116vh/11%20Pro%20Max.zip?dl=0)
 * [12.9 3rd gen](https://www.dropbox.com/s/tsb3zxzv8fk2sd9/12.9%203rd%20gen.zip?dl=0)
 * [12.9 2nd gen](https://www.dropbox.com/s/93gtjj67soultpx/12.9%202nd%20gen.zip?dl=0)
 * [8Plus](https://www.dropbox.com/s/9e33ux1tnpna9si/8Plus.zip?dl=0)
 
-####Video
+#### Video
 
 * [video on youtube](https://youtu.be/sYhPCoeeul4)
 
-####Icon
+#### Icon
 
 * [Hi-res icon](https://www.dropbox.com/s/h58vm0205qnu6pq/PhotInfo_icon1024.png?dl=0)
 
-####Notes
+#### Notes
 
 Requirements: iOS 11.0 or later.
