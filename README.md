@@ -2,9 +2,7 @@
      alt="PhotInfo icon"
      style="float: left;" />
 
-# PhotInfo 6.00
-
-## Press Kit
+# PhotInfo 6.00 ~ Press Kit
 
 PhotInfo is an app to control all the information (location, date, camera, focal length, etc.) contained in your photos.
 
