@@ -1,6 +1,6 @@
 <img src="https://www.dropbox.com/s/jaevv0v28r7zfx7/76.png?raw=1"
      alt="PhotInfo icon"
-     style="float: left; margin-right: 10px; width: 64px; height: 64px" />
+     style="float: left;" />
 
 # PhotInfo 6.00
 
@@ -20,7 +20,9 @@ An user wrote me that she use the app in a photography course she teaches in Cal
 
 ## What's new in 6.00
 
+PhotInfo has been on the store for 7 years and it needed a complete rewrite to keep up with the continuous evolutions of iOS, so the app has been rewritten from Objective C to Swift.
 
+Between PhotInfo 5.00 and 6.00 I wrote PhotInfo NG from scratch, catching up with the PhotInfo's features. Reached the feature parity, PhotInfo switched to the NG code.
 
 ## Features
 
@@ -74,6 +76,16 @@ What makes this app unique are:
 #### Icon
 
 * [Hi-res icon](https://www.dropbox.com/s/h58vm0205qnu6pq/PhotInfo_icon1024.png?dl=0)
+
+#### App Store
+
+<figure><a href="https://itunes.apple.com/it/app/photinfo/id597139381?mt=8"><img width="135" height="40" class="aligncenter" src="http://qebapps.files.wordpress.com/2013/01/download_on_the_app_store_badge_us-uk_135x40.png" alt="Download_on_the_App_Store_Badge_US-UK_135x40"></a></figure>
+
+#### PressKit
+
+* [PDF](https://www.dropbox.com/s/x29y0cj3sn29lbf/PhotInfo%206.00%20PressKit.pdf?dl=0)
+* [HTML](https://photinfo.github.io/presskit/)
+* [MD](https://github.com/PhotInfo/presskit/blob/master/README.md)
 
 #### Notes
 
