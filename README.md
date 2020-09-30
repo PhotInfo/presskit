@@ -14,7 +14,7 @@ With PhotInfo you can access the images in your iPhone or iPad and view all of t
 
 You may delete/modify the image tags to protect your privacy before sharing the image; you may add GPS data if you have forgotten to turn on location services when you took the picture; you may joke by setting improbable location values; you may…
 
-An user wrote me that she use the app in a photography course she teaches in California; another user from Russia, wrote that he use the app to understand which setting make some pictures better than others and improve his photography technique.
+A user wrote me that she use the app in a photography course she teaches in California; another user from Russia, wrote that he use the app to understand which setting make some pictures better than others and improve his photography technique.
 
 ## What's new in 6.00
 
@@ -53,7 +53,7 @@ PhotInfo app is in **costant development**, so new features will be added soon. 
 
 What makes this app unique are:
 
- * the UI
+ * the clean and simple UI
  * the completeness of tags shown
  * the possibility to see the tags in raw format or in a more human readable one
  * the toolbar that allows the user to favorite, hide or delete a picture 
