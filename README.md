@@ -77,8 +77,8 @@ Between PhotInfo 5.00 and 6.00 I wrote PhotInfo NG from scratch, catching up wit
 
 * [iPhone Xs Max](https://www.dropbox.com/s/e6fjezr5v3ldimh/iPhone_Xs_max.zip?dl=0)
 * [iPhone 8 Plus](https://www.dropbox.com/s/mt9znqnwzmhiwbh/iPhone_8plus.zip?dl=0)
-* [12.9 5th gen](https://www.dropbox.com/s/t1mpy10e6wnpste/iPad_pro_12.9_5th.zip?dl=0)
-* [12.9 2nd gen](https://www.dropbox.com/s/v3iqoqhtjnhlerq/iPad_pro_12.9_2nd.zip?dl=0)
+* [iPad 12.9 5th gen](https://www.dropbox.com/s/t1mpy10e6wnpste/iPad_pro_12.9_5th.zip?dl=0)
+* [iPad 12.9 2nd gen](https://www.dropbox.com/s/v3iqoqhtjnhlerq/iPad_pro_12.9_2nd.zip?dl=0)
 * [on Mac](https://www.dropbox.com/s/sns4o80hwwg7tx7/on_Mac.zip?dl=0)
 
 #### Video
