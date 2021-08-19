@@ -6,8 +6,6 @@
 
 PhotInfo is an app to control all the information (location, date, camera, focal length, etc.) contained in your photos.
 
-<img src="https://photinfo.github.io/presskit/photinfo_small.PNG" alt="PhotInfo on iPhone" style="float: right;" />
-
 ## Why PhotInfo
 
 Digital cameras (including those in mobile devices) add some metadata to the photos they take. These data are called Exif tags. They provide an opportunity to learn not only the exact date and time of the shoot, but also parameters such as exposure time, shutter speed, image resolution, device model, ISO, focal length, whether the flash was used, etc.
