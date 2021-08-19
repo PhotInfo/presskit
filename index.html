@@ -12,6 +12,7 @@ body {
 }
 h1 {
   color: #6D50AE;
+  line-height: 1.0;
 } 
 h2 {
   color: #ab73ff;
@@ -26,44 +27,50 @@ header {
 	padding-top:16px; padding-bottom:6px; padding-left:16px;
 	margin: 8px;
 }
+.mainrows {
+	height: 2.2em;
+	vertical-align: bottom;
+}
 </style>
 </head>
+
 <body>
-<header><img src="https://photinfo.github.io/presskit/76.png"
-     alt="PhotInfo icon" style="float: left; margin-right: 10px; width: 64px; height: 64px;" />
-<h1 id="photinfo_600">PhotInfo 6.10 - Press Kit</h1></header>
+<header>
+<table cellspacing="0" cellpadding="0"><tr>
+	<td><img src="https://photinfo.github.io/presskit/76.png" alt="PhotInfo icon" style="margin-right: 12px; margin-left: 4px; width: 64px; height: 64px;"/></td>
+	<td><h1>PhotInfo 6.50 - Press Kit</h1> </td>
+</tr></table>
+</header>
 
 <p>PhotInfo is an app to control all the information (location, date, camera, focal length, etc.) contained in your photos.</p>
 
-<h2 id="why_photinfo">Why PhotInfo</h2>
+<img src="PhotInfo.PNG" alt="PhotInfo on iPhone" style="float: right; width: 360px; height: 680px" />
 
-<img src="https://photinfo.github.io/presskit/PhotInfo%206.00-50.PNG"
-     alt="PhotInfo on iPhone" style="float: right; margin-left: 16px;" />
+<h2 id="why_photinfo">Why PhotInfo</h2>
 	  
 <p>Digital cameras (including those in mobile devices) add some metadata to the photos they take. These data are called Exif tags. They provide an opportunity to learn not only the exact date and time of the shoot, but also parameters such as exposure time, shutter speed, image resolution, device model, ISO, focal length, whether the flash was used, etc.</p>
 
 <p>With PhotInfo you can access the images in your iPhone or iPad and view all of their metadata, delete these metadata or modify some of them.</p>
 
-<p>You may delete/modify the image tags to protect your privacy before sharing the image; you may add GPS data if you had forgotten to turn on location services when you took the picture; you may joke by setting improbable location values; you may...</p>
+<p>You may delete/modify the image tags to protect your privacy before sharing the image; you may add GPS data if you had forgotten to turn on location services when you took the picture; you may joke by setting improbable location values; you may reset date or location deleted by a previous editing; you may...</p>
 
 <p>A user wrote me that she uses the app in a photography class she teaches in California; another user from Russia, wrote about using the app to figure out which settings make some pictures better than others and to improve his photography technique.</p>
 
-<h2 id="new_in_610">6.10: On the Mac</h2>
+<h2 id="uniqueness">Uniqueness</h2>
 
-<p>With version 6.10, PhotInfo arrives on the Mac. The UI is tweaked for the Mac, but he app works like on iPhone/iPad: it only accesses the pictures in your Photos Library (the ones you see in the native Photos app). PhotInfo for Mac shows all the tags contained in these images and let you modifying the main tags.</p>
+<p>What makes this app unique are:</p>
 
-<p>If you buy PhotInfo on one platform you can download the app on the other platforms for free.</p>
-
-<h2 id="new_in_6">6.00: A complete rewrite</h2>
-
-<p>After about 7 years on the store, PhotInfo needed a complete rewrite to keep up with the continuous evolutions of iOS, so the app has been rewritten from Objective C to Swift.</p>
-
-<p>Between PhotInfo 5.00 and 6.00 I wrote PhotInfo NG from scratch, catching up with the PhotInfo's features. Reached the feature parity, PhotInfo switched to the NG code.</p>
+<ul>
+<li>the clean and simple UI</li>
+<li>the completeness of tags shown</li>
+<li>the possibility to see the tags in raw format or in a more human readable one</li>
+<li>the convenient navigation between photos and albums</li>
+<li>the toolbar that allows the user to favorite, hide or delete a picture</li>
+</ul>
 
 <h2 id="features">Features</h2>
 
-<img src="https://photinfo.github.io/presskit/ipad-dark.PNG"
-     alt="PhotInfo on iPad" style="float: right; margin-left: 16px; width: 495px; height: 381px" />
+<img src="ipad-dark.PNG" alt="PhotInfo on iPad" style="float: right; margin-left: 16px; width: 495px; height: 381px" />
      
 <p>With PhotInfo you can:</p>
 
@@ -78,7 +85,7 @@ header {
 <li>find the coordinates</li>
 <li>show the address</li>
 </ul></li>
-<li>create a copy of the image editing the tags for:
+<li>create a copy of the image or modifying it editing the tags for:
 <ul>
 <li>the place (you can take it from another picture)</li>
 <li>the date and time when the photo was taken (you can take it from another picture)</li>
@@ -87,6 +94,7 @@ header {
 <li>the copyright</li>
 <li>the image description</li>
 </ul></li>
+<li>editing a batch of photos</li>
 <li>create a copy of the image with the minimum content of the tags (related to image data structure, such as the image size, resolution and orientation)</li>
 <li>share, favorite, hide or delete a photo</li>
 <li>quickly scroll through the albums of your iOS device</li>
@@ -96,42 +104,54 @@ header {
 
 <p>PhotInfo app is in constant development, so new features will be added soon. <i><b>Download now and stay tuned!</b></i></p>
 
-<h2 id="uniqueness">Uniqueness</h2>
+<h2 id="history">A bit of history</h2>
 
-<p>What makes this app unique are:</p>
+<h3 id="new_in_650">6.50: Multi Edit</h3>
 
-<ul>
-<li>the clean and simple UI</li>
-<li>the completeness of tags shown</li>
-<li>the possibility to see the tags in raw format or in a more human readable one</li>
-<li>the toolbar that allows the user to favorite, hide or delete a picture  </li>
-</ul>
+<p>It is (finally) possible to edit more than one photo at a time. This has been a long-awaited request by the user community to save a lot of time in multiple editing.</p>
 
-<img src="https://photinfo.github.io/presskit/PhotInfoOnMac.png" alt="PhotInfoOnMac" width="566" height="551" style="float: right; margin-left: 16px;" />
+<h3 id="new_in_610">6.10: On the Mac</h3>
 
-<h2 id="other">Links and notes</h2>
+<p>With version 6.10, PhotInfo arrives on the Mac. The UI is tweaked for the Mac, but he app works like on iPhone/iPad: it only accesses the pictures in your Photos Library (the ones you see in the native Photos app). PhotInfo for Mac shows all the tags contained in these images and let you modifying the main tags.</p>
+
+<p>If you buy PhotInfo on one platform you can download the app on the other platforms for free.</p>
+
+<img src="https://photinfo.github.io/presskit/PhotInfoOnMac.png" alt="PhotInfoOnMac" width="504" height="524" style="float: right; margin-left: 16px;" />
+
+<h3 id="new_in_6">6.00: A complete rewrite</h3>
+
+<p>After about 7 years on the store, PhotInfo needed a complete rewrite to keep up with the continuous evolutions of iOS, so the app has been rewritten from Objective C to Swift.</p>
+
+<p>Between PhotInfo 5.00 and 6.00 I wrote PhotInfo NG from scratch, catching up with the PhotInfo's features. Reached the feature parity, PhotInfo switched to the NG code.</p>
+
+<h2 id="links">Links</h2>
 
 <table>
-	<tr><td><strong>Screenshots &nbsp;</strong></td><td><a href="https://www.dropbox.com/s/otu6kr60wy116vh/11%20Pro%20Max.zip?dl=0">11 Pro Max</a></td>
-	<tr><td></td><td><a href="https://www.dropbox.com/s/9e33ux1tnpna9si/8Plus.zip?dl=0">8 Plus</a></td>
-	<tr><td></td><td><a href="https://www.dropbox.com/s/tsb3zxzv8fk2sd9/12.9%203rd%20gen.zip?dl=0">12.9 3rd gen</a></td>
-	<tr><td></td><td><a href="https://www.dropbox.com/s/93gtjj67soultpx/12.9%202nd%20gen.zip?dl=0">12.9 2nd gen</a></td>
-	<tr><td></td><td><a href="https://www.dropbox.com/s/e43g8fwgfh5qs0p/PhotInfoOnMac.zip?dl=0">on Mac</a></td>
-	<tr style="height:2em; vertical-align: bottom;"><td><strong>Video</strong></td><td><a href="https://youtu.be/sYhPCoeeul4">on YouTube</a></td>
-	<tr style="height:2em; vertical-align: bottom;"><td><strong>Icon</strong></td><td><a href="https://www.dropbox.com/s/h58vm0205qnu6pq/PhotInfo_icon1024.png?dl=0">Hi-Res icon</a></td>
-	<tr style="height:2em; vertical-align: bottom;"><td><strong>PhotInfo's site &nbsp;</strong></td><td><a href="https://qebapps.wordpress.com/photinfo/">Site</a></td>
-	<tr style="height:2em; vertical-align: bottom;"><td><strong>PressKit</strong></td><td><a href="https://www.dropbox.com/s/l65yznj76pxy9cc/PhotInfo%206.10%20PressKit.pdf?dl=0">PDF</a></td>
-	<tr><td></td><td><a href="https://photinfo.github.io/presskit/">HTML</a></td>
+	<tr><td><strong>Screenshots &nbsp;</strong></td><td><a href="https://www.dropbox.com/s/e6fjezr5v3ldimh/iPhone_Xs_max.zip?dl=0">iPhone Xs Max</a></td>
+	<tr><td></td><td><a href="https://www.dropbox.com/s/mt9znqnwzmhiwbh/iPhone_8plus.zip?dl=0">iPhone 8 Plus</a></td>
+	<tr><td></td><td><a href="https://www.dropbox.com/s/t1mpy10e6wnpste/iPad_pro_12.9_5th.zip?dl=0">iPad 12.9 5th gen</a></td>
+	<tr><td></td><td><a href="https://www.dropbox.com/s/v3iqoqhtjnhlerq/iPad_pro_12.9_2nd.zip?dl=0">iPad 12.9 2nd gen</a></td>
+	<tr><td></td><td><a href="https://www.dropbox.com/s/sns4o80hwwg7tx7/on_Mac.zip?dl=0">on Mac</a></td>
+	<tr class="mainrows"><td><strong>Video</strong></td><td><a href="https://youtu.be/X__wWnt97nw">on YouTube</a></td>
+	<tr class="mainrows"><td><strong>Icon</strong></td><td><a href="https://www.dropbox.com/s/h58vm0205qnu6pq/PhotInfo_icon1024.png?dl=0">Hi-Res icon</a></td>
+	<tr class="mainrows"><td><strong>Site</strong></td><td><a href="https://qebapps.wordpress.com/photinfo/">PhotInfo</a></td>
+	<tr class="mainrows"><td><strong>Press Kit &nbsp;</strong></td><td><a href="https://photinfo.github.io/presskit/">HTML</a></td>
 	<tr><td></td><td><a href="https://github.com/PhotInfo/presskit/blob/master/README.md">MD</a></td>
 </table>
 
+<img src="qr-code.png" alt="QR Code" style="float: right; margin-left: 16px;" />
+
 <strong>App Store</strong>
-<figure><a href="https://apps.apple.com/us/app/photinfo/id597139381?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1360195200&h=5b1214002119052b44a41974163ace20" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a></figure>
+<figure><a href="https://apps.apple.com/us/app/photinfo/id597139381?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1360195200&h=b66f22bf1a51e8ef3708e6038e414ea7" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a></figure>
+<figure><a href="https://apps.apple.com/us/app/photinfo/id597139381?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83&amp;releaseDate=1360195200&h=8b473fd3a39fab88f8622b6d5fc5114d" alt="Download on the Mac App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a></figure>
 
-<figure><a href="https://apps.apple.com/us/app/photinfo/id597139381?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-US?size=250x83&amp;releaseDate=1360195200&h=cbfeaa2a86baac925d1a972b0c5468c3" alt="Download on the Mac App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a></figure>
 
-<small><p><strong>Requirements</strong>
-<BR>iPhone/iPad: iOS 11.0 or later. ~~ Mac: macOS 10.15 (Catalina) or 11.0 (Big Sur).</p></small>
-<BR>
+     
+<h2 id="requirements">Requirements</h2>
+iOS 13.0, iPadOS 13.0, macOS 10.15 (Catalina) or later.
+
+<h2 id="contact">Contact</h2>
+For any questions or to request a promo code email me at <a href="mailto:qebapps@gmail.com">qebapps@gmail.com</a>
+<p><BR></p>
 </body>
 </html>
