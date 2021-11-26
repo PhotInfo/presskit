@@ -2,25 +2,22 @@
      alt="PhotInfo icon"
      style="float: left; margin-right: 12px;" />
 
-# PhotInfo 6.50 ~ Press Kit
+# PhotInfo 7.0 ~ Press Kit
 
 PhotInfo is an app to control all the information (location, date, camera, focal length, etc.) contained in your photos.
 
 ## Why PhotInfo
 
-Digital cameras (including those in mobile devices) add some metadata to the photos they take. These data are called Exif tags. They provide an opportunity to learn not only the exact date and time of the shoot, but also parameters such as exposure time, shutter speed, image resolution, device model, ISO, focal length, whether the flash was used, etc.
+Digital cameras (including those in mobile devices) add some metadata to the photos they take. These data are called Exif tags. They provide an opportunity to know not only the exact date and time of the shoot, but also parameters such as exposure time, shutter speed, image resolution, device model, ISO, focal length, etc.
 
-With PhotInfo you can access the images in your iPhone or iPad and view all of their metadata, delete these metadata or modify some of them.
+Letting PhotInfo access the photos on your iPhone, iPad or Mac, you can view all of their metadata, delete these metadata or modify some of them.
 
-You may delete/modify the image tags to protect your privacy before sharing the image; you may add GPS data if you have forgotten to turn on location services when you took the picture; you may joke by setting improbable location values; you may…
+You may delete/modify the image tags to protect your privacy before sharing the image; you may add GPS data if you had forgotten to turn on location services when you took the picture; you may joke by setting improbable location values; you may reset date or location deleted by a previous editing; you may...
 
-A user wrote me that she uses the app in a photography course she teaches in California; another user from Russia, wrote about using the app to figure out which settings make some pictures better than others and to improve his photography technique.
+A user wrote me that she uses the app in a photography class she teaches in California; another user from Russia, wrote about using the app to figure out which settings make some pictures better than others and to improve his photography technique.
 
-## Uniqueness
+## What makes this app unique
 
-What makes this app unique are:
-
- * the clean and simple UI
  * the completeness of tags shown
  * the possibility to see the tags in raw format or in a more human readable one
  * the convenient navigation between photos and albums
@@ -30,9 +27,11 @@ What makes this app unique are:
 
 With PhotInfo you can:
 
-* display an image with the main tags in a single view
 * view all the Exif tags from the picture
+* display an image with the main tags and the map of the location in a single view
+* share an image with or without tags
 * copy the key data or the content of individual tags
+* share all the tags in raw or in human readable format or as a JSON 
 * create a copy of the image eliminating or modifying tags for:
 	* the place (you can take it from another picture)
 	* the date and time when the photo was taken (you can take it from another picture)
@@ -41,12 +40,8 @@ With PhotInfo you can:
 	* the copyright
 	* the image description
 * create a copy of the image with the minimum content of the tags (related to image data structure, such as the image size, resolution and orientation)
-* see where the photo was taken, in different ways:
-	* visualize the city name
-	* locate in a map
-	* find the coordinates
-	* show the address
-* share, favorite, hide or delete a photo
+* see where the photo was taken, in different ways (map, address, coordinate)
+* favorite, hide or delete a photo
 * quickly scroll through the albums of your iOS device
 * support for burst photos
 * view the tags directly from other apps with the PhotInfo's **Extension**
@@ -54,6 +49,10 @@ With PhotInfo you can:
 PhotInfo app is in **costant development**, so new features will be added soon. Download now and stay tuned!
 
 ## A bit of history
+
+### 7.0: New UI
+
+A new simpler UI arrives in version 7.0: map and details views join in one; the toolbar moves to the bottom on iPhone and to the top on iPad and Mac.
 
 ### 6.50: Multi Edit
 
@@ -75,19 +74,25 @@ Between PhotInfo 5.00 and 6.00 I wrote PhotInfo NG from scratch, catching up wit
 
 #### Screenshots
 
-* [iPhone Xs Max](https://www.dropbox.com/s/e6fjezr5v3ldimh/iPhone_Xs_max.zip?dl=0)
-* [iPhone 8 Plus](https://www.dropbox.com/s/mt9znqnwzmhiwbh/iPhone_8plus.zip?dl=0)
-* [iPad 12.9 5th gen](https://www.dropbox.com/s/t1mpy10e6wnpste/iPad_pro_12.9_5th.zip?dl=0)
-* [iPad 12.9 2nd gen](https://www.dropbox.com/s/v3iqoqhtjnhlerq/iPad_pro_12.9_2nd.zip?dl=0)
-* [on Mac](https://www.dropbox.com/s/sns4o80hwwg7tx7/on_Mac.zip?dl=0)
+* [iPhone Xs Max](https://www.dropbox.com/s/codfo37tnapher6/Xs_Max.zip?dl=0)
+* [iPhone 8 Plus](https://www.dropbox.com/s/h5ujsgqjrftzgd4/8_Plus.zip?dl=0)
+* [iPad 12.9 5th gen](https://www.dropbox.com/s/13fjuaga0osqbkg/iPad_Pro_12.9_3rd_gen.zip?dl=0)
+* [iPad 12.9 2nd gen](https://www.dropbox.com/s/zefpt5c0z0eoros/iPad_Pro_12.9_2nd_gen.zip?dl=0)
+* [on Mac](https://www.dropbox.com/s/hyrwa93rkpihle9/mac.zip?dl=0)
+* [misc](https://www.dropbox.com/s/hbk2gbr7kyf3g8u/misc.zip?dl=0)
 
 #### Video
 
-* [video on youtube](https://youtu.be/X__wWnt97nw)
+* [video on youtube](https://youtu.be/lGy3k0SHUAQ)
 
 #### Icon
 
 * [Hi-res icon](https://www.dropbox.com/s/h58vm0205qnu6pq/PhotInfo_icon1024.png?dl=0)
+
+#### Site
+
+* [PhotInfo](https://qebapps.wordpress.com/photinfo/)
+* [Privacy Policy](https://qebapps.wordpress.com/privacy-policy/privacy-policy-of-photinfo/)
 
 #### PressKit
 
@@ -102,8 +107,12 @@ Between PhotInfo 5.00 and 6.00 I wrote PhotInfo NG from scratch, catching up wit
 
 #### Requirements
 
-iPhone/iPad: iOS 11.0 or later. ~~ Mac: macOS 10.15 (Catalina) or 11.0 (Big Sur).
+iPhone/iPad: iOS 13.0, iPadOS 13.0 or later. ~~ Mac: macOS 10.15 (Catalina) or 11.0 (Big Sur).  
 
 #### Contact
 For any questions or to request a promo code email me at <a href="mailto:qebapps@gmail.com">qebapps@gmail.com</a>
+
+You can find the latest news about PhotInfo on [this page](https://qebapps.wordpress.com/category/news/) or on [Twitter](https://twitter.com/qebapps).
+
+Handmade with ❤️ by Enrico Bonaldo
 

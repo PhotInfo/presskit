@@ -8,7 +8,10 @@ body {
   font-weight: 200;
   line-height: 1.4;
   margin: 0 auto;
+}
+.container {
   max-width: 960px;
+  margin: 0 auto;
 }
 h1 {
   color: #6D50AE;
@@ -31,24 +34,39 @@ header {
 	height: 2.2em;
 	vertical-align: bottom;
 }
+.section {
+	background-color: #231f2a;
+	border-radius: 16px;
+	padding-top:4px; padding-bottom:4px;
+	padding-left:16px; padding-right:16px;
+}
+footer {
+  width: 100%;
+  background-color: #231f2a;
+}
 </style>
 </head>
 
 <body>
+<div class="container">
 <header>
 <table cellspacing="0" cellpadding="0"><tr>
 	<td><img src="https://photinfo.github.io/presskit/76.png" alt="PhotInfo icon" style="margin-right: 12px; margin-left: 4px; width: 64px; height: 64px;"/></td>
-	<td><h1>PhotInfo 6.50 - Press Kit</h1> </td>
+	<td><h1>PhotInfo 7.0 - Press Kit</h1> </td>
 </tr></table>
 </header>
 
+<center><img src="photinfos.png" alt="PhotInfo on iPhone" style="width: 90%" /></center>
+
 <p>PhotInfo is an app to control all the information (location, date, camera, focal length, etc.) contained in your photos.</p>
 
-<img src="photinfo.PNG" alt="PhotInfo on iPhone" style="float: right; width: 360px; height: 680px" />
+<div class="section"><center>
+<p>At the bottom of this page: <a href="#links">links</a> for downloading screenshots, video, hi-res icon and this text.</p>
+</center></div>
 
 <h2 id="why_photinfo">Why PhotInfo</h2>
 	  
-<p>Digital cameras (including those in mobile devices) add some metadata to the photos they take. These data are called Exif tags. They provide an opportunity to learn not only the exact date and time of the shoot, but also parameters such as exposure time, shutter speed, image resolution, device model, ISO, focal length, whether the flash was used, etc.</p>
+<p>Digital cameras (including those in mobile devices) add some metadata to the photos they take. These data are called Exif tags. They provide an opportunity to know not only the exact date and time of the shoot, but also parameters such as exposure time, shutter speed, image resolution, device model, ISO, focal length, etc.</p>
 
 <p>With PhotInfo you can access the images in your iPhone or iPad and view all of their metadata, delete these metadata or modify some of them.</p>
 
@@ -56,35 +74,28 @@ header {
 
 <p>A user wrote me that she uses the app in a photography class she teaches in California; another user from Russia, wrote about using the app to figure out which settings make some pictures better than others and to improve his photography technique.</p>
 
-<h2 id="uniqueness">Uniqueness</h2>
-
-<p>What makes this app unique are:</p>
+<div class="section"><h2 id="uniqueness">What makes this app unique</h2>
 
 <ul>
-<li>the clean and simple UI</li>
 <li>the completeness of tags shown</li>
 <li>the possibility to see the tags in raw format or in a more human readable one</li>
 <li>the convenient navigation between photos and albums</li>
 <li>the toolbar that allows the user to favorite, hide or delete a picture</li>
 </ul>
+</div>
 
 <h2 id="features">Features</h2>
 
-<img src="ipad-dark.PNG" alt="PhotInfo on iPad" style="float: right; margin-left: 16px; width: 495px; height: 381px" />
+<img src="photinfo-ipad.png" alt="PhotInfo on iPad" style="float: right; margin-left: 16px; width: 50%" />
      
 <p>With PhotInfo you can:</p>
 
 <ul>
-<li>display an image with the main tags in a single view</li>
-<li>view all the Exif tags from the picture</li>
+<li>view <b>all the Exif tags</b> from a picture: in raw or in human readable format</li>
+<li>display an image with the main tags and the map of the location in a single view</li>
+<li>share an image with or without tags</li>
 <li>copy the key data or the content of individual tags</li>
-<li>see where the photo was taken, in different ways:
-<ul>
-<li>visualize the city name</li>
-<li>locate in a map</li>
-<li>find the coordinates</li>
-<li>show the address</li>
-</ul></li>
+<li>share all the tags in raw or in human readable format or as a JSON </li>
 <li>create a copy of the image or modifying it editing the tags for:
 <ul>
 <li>the place (you can take it from another picture)</li>
@@ -94,17 +105,23 @@ header {
 <li>the copyright</li>
 <li>the image description</li>
 </ul></li>
-<li>editing a batch of photos</li>
 <li>create a copy of the image with the minimum content of the tags (related to image data structure, such as the image size, resolution and orientation)</li>
-<li>share, favorite, hide or delete a photo</li>
+<li>editing a batch of photos</li>
+<li>see where the photo was taken, in different ways (map, address, coordinate)</li>
+<li>favorite, hide or delete a photo</li>
 <li>quickly scroll through the albums of your iOS device</li>
-<li>support for burst photos</li>
+<li>look at different pictures in burst photos (iOS only)</li>
+<li>share associated files: such as original image for edited photos or video for live ones</li>
 <li>view the tags directly from other apps with the PhotInfo's <strong>Extension</strong></li>
 </ul>
 
 <p>PhotInfo app is in constant development, so new features will be added soon. <i><b>Download now and stay tuned!</b></i></p>
 
 <h2 id="history">A bit of history</h2>
+
+<h3 id="new_in_7">7.0: New UI</h3>
+
+<p>A new simpler UI arrives in version 7.0: map and details views join in one; the toolbar moves to the bottom on iPhone and to the top on iPad and Mac.</p>
 
 <h3 id="new_in_650">6.50: Multi Edit</h3>
 
@@ -116,7 +133,7 @@ header {
 
 <p>If you buy PhotInfo on one platform you can download the app on the other platforms for free.</p>
 
-<img src="https://photinfo.github.io/presskit/PhotInfoOnMac.png" alt="PhotInfoOnMac" width="504" height="524" style="float: right; margin-left: 16px;" />
+	<img src="photinfo-mac.png" alt="PhotInfoOnMac" width=50% style="float: right; margin-left: 16px;" />
 
 <h3 id="new_in_6">6.00: A complete rewrite</h3>
 
@@ -124,34 +141,50 @@ header {
 
 <p>Between PhotInfo 5.00 and 6.00 I wrote PhotInfo NG from scratch, catching up with the PhotInfo's features. Reached the feature parity, PhotInfo switched to the NG code.</p>
 
+<h3 id="photinfo_1">February 2013: 1.00</h3>
+
+<p>PhotInfo was published on the App Store for the first time on 7h February 2013.</p>
+
 <h2 id="links">Links</h2>
 
 <table>
-	<tr><td><strong>Screenshots &nbsp;</strong></td><td><a href="https://www.dropbox.com/s/e6fjezr5v3ldimh/iPhone_Xs_max.zip?dl=0">iPhone Xs Max</a></td>
-	<tr><td></td><td><a href="https://www.dropbox.com/s/mt9znqnwzmhiwbh/iPhone_8plus.zip?dl=0">iPhone 8 Plus</a></td>
-	<tr><td></td><td><a href="https://www.dropbox.com/s/t1mpy10e6wnpste/iPad_pro_12.9_5th.zip?dl=0">iPad 12.9 5th gen</a></td>
-	<tr><td></td><td><a href="https://www.dropbox.com/s/v3iqoqhtjnhlerq/iPad_pro_12.9_2nd.zip?dl=0">iPad 12.9 2nd gen</a></td>
-	<tr><td></td><td><a href="https://www.dropbox.com/s/sns4o80hwwg7tx7/on_Mac.zip?dl=0">on Mac</a></td>
-	<tr class="mainrows"><td><strong>Video</strong></td><td><a href="https://youtu.be/X__wWnt97nw">on YouTube</a></td>
+	<tr><td><strong>Screenshots &nbsp;</strong></td><td><a href="https://www.dropbox.com/s/codfo37tnapher6/Xs_Max.zip?dl=0">iPhone Xs Max</a></td>
+	<tr><td></td><td><a href="https://www.dropbox.com/s/h5ujsgqjrftzgd4/8_Plus.zip?dl=0">iPhone 8 Plus</a></td>
+	<tr><td></td><td><a href="https://www.dropbox.com/s/13fjuaga0osqbkg/iPad_Pro_12.9_3rd_gen.zip?dl=0">iPad 12.9 3rd gen</a></td>
+	<tr><td></td><td><a href="https://www.dropbox.com/s/zefpt5c0z0eoros/iPad_Pro_12.9_2nd_gen.zip?dl=0">iPad 12.9 2nd gen</a></td>
+	<tr><td></td><td><a href="https://www.dropbox.com/s/hyrwa93rkpihle9/mac.zip?dl=0">on Mac</a></td>
+	<tr><td></td><td><a href="https://www.dropbox.com/s/hbk2gbr7kyf3g8u/misc.zip?dl=0">misc</a></td>
+	<tr class="mainrows"><td><strong>Video</strong></td><td><a href="https://youtu.be/lGy3k0SHUAQ">on YouTube</a></td>
 	<tr class="mainrows"><td><strong>Icon</strong></td><td><a href="https://www.dropbox.com/s/h58vm0205qnu6pq/PhotInfo_icon1024.png?dl=0">Hi-Res icon</a></td>
 	<tr class="mainrows"><td><strong>Site</strong></td><td><a href="https://qebapps.wordpress.com/photinfo/">PhotInfo</a></td>
-	<tr class="mainrows"><td><strong>Press Kit &nbsp;</strong></td><td><a href="https://photinfo.github.io/presskit/">HTML</a></td>
+	<tr><td></td><td><a href="https://qebapps.wordpress.com/privacy-policy/privacy-policy-of-photinfo/">Privacy Policy</a></td>
+	<tr class="mainrows"><td><strong>Press Kit</strong></td><td><a href="https://photinfo.github.io/presskit/">HTML</a></td>
 	<tr><td></td><td><a href="https://github.com/PhotInfo/presskit/blob/master/README.md">MD</a></td>
 </table>
 
-<img src="qr-code.png" alt="QR Code" style="float: right; margin-left: 16px;" />
+<img src="qr-code.png" alt="QR Code" style="float: right; margin-left: 16px; width: 40%" />
 
 <strong>App Store</strong>
 <figure><a href="https://apps.apple.com/us/app/photinfo/id597139381?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1360195200&h=b66f22bf1a51e8ef3708e6038e414ea7" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a></figure>
 <figure><a href="https://apps.apple.com/us/app/photinfo/id597139381?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83&amp;releaseDate=1360195200&h=8b473fd3a39fab88f8622b6d5fc5114d" alt="Download on the Mac App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a></figure>
 
-
-     
 <h2 id="requirements">Requirements</h2>
 iOS 13.0, iPadOS 13.0, macOS 10.15 (Catalina) or later.
 
 <h2 id="contact">Contact</h2>
-For any questions or to request a promo code email me at <a href="mailto:qebapps@gmail.com">qebapps@gmail.com</a>
+For any questions or to request a promo code email me at <a href="mailto:qebapps@gmail.com">qebapps@gmail.com</a>.
+
+<p>You can find the latest news about PhotInfo on <a href="https://qebapps.wordpress.com/category/news/">this page</a> or on <a href="https://twitter.com/qebapps">Twitter.</a></p>
+
 <p><BR></p>
+
+</div>
+
+<footer><center>
+<p><BR></p>
+<p>Handmade with ❤️ by Enrico Bonaldo</p>
+<p><BR></p>
+</center></footer>
+
 </body>
 </html>
