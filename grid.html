@@ -1,0 +1,157 @@
+<!DOCTYPE html><html>
+<head>
+<style>
+body {
+  background-color: #373141;
+  color: #FFFFFF;
+  font-family: -apple-system,Helvetica,Arial,sans-serif;
+  font-weight: 200;
+  line-height: 1.4;
+  margin: auto;
+}
+table.grid {
+    border-spacing: 12px;
+	table-layout: fixed;
+}
+td {
+    border-radius: 20px;
+}
+.container {
+	max-width: 960px;
+	width:95%;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin: auto;
+}
+.top { 
+	vertical-align: top;
+}
+.bottom { 
+	vertical-align: bottom;
+}
+.center { 
+	text-align: center;
+}
+.medium {
+	font-weight: 600;
+}
+td.dark {
+	background-color: #27232F;	#484055;
+}
+td.greenish {
+	background-color: #27232F;
+}
+td.image_only {
+	padding: 6px;
+}
+td.text {
+	padding: 12px;
+}
+.gtext {
+	background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.btext {
+	background: linear-gradient(to right, #00FFFF, #6e71ff, #604dff);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.vtext {
+	background: -webkit-linear-gradient(#eee, #333);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+	
+<table class="grid medium" style="width:100%;">
+    <tr>
+        <td class="greenish center">
+			<div class="gtext"><p>Available on:</p>
+			iOS<BR>iPadOS<BR>macOS</div>
+		</td>
+        <td class="greenish center" width="25%">
+			<img src="grid/photinfo-mac.png"
+			style="width: 90%;"/>
+		</td>
+        <td class="dark image_only center" width="12.5%">
+			<img src="grid/tags_light.png"
+			style="width: 90%;"/>
+        </td>
+        <td class="dark image_only center" width="12.5%">
+			<img src="grid/details_dark.png"
+			style="width: 90%;"/>
+        </td>
+        <td class="greenish center bottom" colspan="2" width="25%">
+			<table class="center medium">
+				<tr><td><div style="margin-bottom:5px;">IPTC template</div></td></tr>
+				<tr><td><img src="grid/iptc_template.png" style="width: 95%;"/></td></tr>
+			</table>
+		</td>
+    </tr>
+	
+    <tr>
+        <td class="dark image_only">
+			<table class="center medium">
+				<tr><td><img src="grid/main_light.png" style="width: 50%"/></td></tr>
+				<tr><td><div style="margin-bottom:5px;">Main info</div></td></tr>
+			</table>
+        </td>
+        <td class="greenish image_only center" colspan="3" rowspan="2">
+			<img src="grid/photinfo-ipad.png"
+			style="width: 90%"/>
+        </td>
+        <td class="greenish image_only" colspan="2" rowspan="2">
+			<table class="center medium">
+				<tr><td>
+					<img src="grid/iptc_template_table.png" style="width: 70%"/>
+				</td></tr>
+				<tr><td><div style="margin-bottom:5px;">IPTC tags</div></td></tr>
+			</table>
+        </td>
+    </tr>
+	<tr><td class="greenish center text">
+		<div class="btext" style="margin-bottom:5px;">Edit one<BR>or more images<BR>at a time</div>
+	</td></tr>
+	
+	<tr>
+        <td class="greenish image_only" colspan="2">
+			<table class="center medium" table-layout: fixed;><tr>
+				<td width="50%">
+					<img src="grid/save_edit_ipad.png" style="width: 100%;"/>
+				</td>
+				<td class="center">
+					<div class="gtext"><p>Edit main tags</p>
+					Modify actual image<BR>
+					or save a new one<BR>
+					or save to Files</div>
+				</td>
+			</tr></table>
+        </td>
+        <td class="dark center top" colspan="2">
+			<img src="grid/bottom-details.png"
+			style="width: 75%;"/>
+        </td>
+        <td class="greenish center">
+			<div class="btext">
+				Small<BR>size<BR>app:
+				<div style="white-space: nowrap;">&lt; 4MB</div>
+			</div>
+        </td>
+        <td class="dark image_only center">
+			<img src="grid/multiple_edit.png"
+			style="width: 85%;"/>
+        </td>
+	</tr>
+</table>
+
+
+
+
+</div>
+</body>
+</html>
