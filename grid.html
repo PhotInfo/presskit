@@ -7,6 +7,7 @@ body {
   font-family: -apple-system,Helvetica,Arial,sans-serif;
   font-weight: 200;
   line-height: 1.4;
+  font-size: 1.2em;
   margin: auto;
 }
 table.grid {
@@ -79,8 +80,12 @@ td.text {
 			style="width: 90%;"/>
 		</td>
         <td class="dark image_only center" width="12.5%">
-			<img src="grid/tags_light.png"
-			style="width: 90%;"/>
+			<table class="center medium">
+				<tr><td>
+					<img src="grid/tags_light.png" style="width: 70%;"/>
+				</td></tr>
+				<tr><td><div style="margin-bottom:5px;">All tags</div></td></tr>
+			</table>
         </td>
         <td class="dark image_only center" width="12.5%">
 			<img src="grid/details_dark.png"
@@ -89,10 +94,13 @@ td.text {
         <td class="greenish center bottom" colspan="2" width="25%">
 			<table class="center medium">
 				<tr><td><div style="margin-bottom:5px;">IPTC template</div></td></tr>
-				<tr><td><img src="grid/iptc_template.png" style="width: 95%;"/></td></tr>
+				<tr><td>
+					<img src="grid/iptc_template.png" style="width: 95%;"/>
+				</td></tr>
 			</table>
 		</td>
     </tr>
+	
     <tr>
         <td class="dark image_only">
 			<table class="center medium">
@@ -101,7 +109,7 @@ td.text {
 			</table>
         </td>
         <td class="greenish image_only center" colspan="3" rowspan="2">
-			<div class="gtext" style="font-size:10vw">PhotInfo 8.0</div>
+			<div class="gtext" style="font-size: 7vw; line-height: 1.2;">PhotInfo 8.0</div>
         </td>
         <td class="greenish image_only" colspan="2" rowspan="2">
 			<table class="center medium">
@@ -114,22 +122,16 @@ td.text {
     </tr>
 	
 	<tr><td class="greenish center text">
-		<div class="btext" style="margin-bottom:5px;">Edit one<BR>or more images<BR>at a time</div>
+		<div class="btext" style="margin-bottom:5px;">
+			Edit one or more images at a time</div>
 	</td></tr>
 	
 	<tr>
-        <td class="greenish image_only" colspan="2">
-			<table class="center medium" table-layout: fixed;><tr>
-				<td width="50%">
-					<img src="grid/save_edit_ipad.png" style="width: 100%;"/>
-				</td>
-				<td class="center">
-					<div class="gtext"><p>Edit main tags</p>
-					Modify actual image<BR>
-					or save a new one<BR>
-					or save to Files</div>
-				</td>
-			</tr></table>
+        <td class="greenish image_only">
+			<img src="grid/saving.png" style="width: 100%;"/>
+        </td>
+        <td class="greenish image_only">
+			<img src="grid/photinfo-ipad.png" style="width: 100%;"/>
         </td>
         <td class="dark center top" colspan="2">
 			<img src="grid/bottom-details.png"
