@@ -2,73 +2,79 @@
      alt="PhotInfo icon"
      style="float: left; margin-right: 12px;" />
 
-# PhotInfo 7.0 ~ Press Kit
+# PhotInfo 8.10 ~ Press Kit
 
-PhotInfo is an app to control all the information (location, date, camera, focal length, etc.) contained in your photos.
+PhotInfo is an app to view, edit, and manage photo metadata - such as location, camera info, date, time, and more - right from your iPhone, iPad, or Mac.
 
 ## Why PhotInfo
 
-Digital cameras (including those in mobile devices) add some metadata to the photos they take. These data are called Exif tags. They provide an opportunity to know not only the exact date and time of the shoot, but also parameters such as exposure time, shutter speed, image resolution, device model, ISO, focal length, etc.
+Every digital photo contains more than just pixels - it holds hidden metadata like shutter speed, camera model, ISO, focal length, and even GPS location. PhotInfo gives you full access to this information, letting you explore, understand, and take control of what your photos say about you.
 
-Letting PhotInfo access the photos on your iPhone, iPad or Mac, you can view all of their metadata, delete these metadata or modify some of them.
+Whether you want to edit or remove metadata for privacy, correct missing or inaccurate info, or simply learn more about how your photos were taken, PhotInfo makes it easy. It's a powerful tool for photographers, teachers, and anyone who wants to get more from their images - or just keep their photo library tidy.
 
-You may delete/modify the image tags to protect your privacy before sharing the image; you may add GPS data if you had forgotten to turn on location services when you took the picture; you may joke by setting improbable location values; you may reset date or location deleted by a previous editing; you may...
-
-A user wrote me that she uses the app in a photography class she teaches in California; another user from Russia, wrote about using the app to figure out which settings make some pictures better than others and to improve his photography technique.
+Real users include photography instructors and enthusiasts who use PhotInfo to improve their technique or teach others.
 
 ## What makes this app unique
 
- * the completeness of tags shown
- * the possibility to see the tags in raw format or in a more human readable one
- * the convenient navigation between photos and albums
- * the toolbar that allows the user to favorite, hide or delete a picture 
+ * Detailed metadata access (Exif, Tiff, IPTC…)
+ * Human-readable + raw formats
+ * Smart photo navigation and album browsing
+ * The IPTC metadata editor with a template
+ * Actively maintained since 2013
+ * Lightweight: <4MB
 
 ## Features
 
 With PhotInfo you can:
 
-* view all the Exif tags from the picture
-* display an image with the main tags and the map of the location in a single view
-* share an image with or without tags
-* copy the key data or the content of individual tags
-* share all the tags in raw or in human readable format or as a JSON 
-* create a copy of the image eliminating or modifying tags for:
-	* the place (you can take it from another picture)
-	* the date and time when the photo was taken (you can take it from another picture)
-	* the orientation
-	* the author (the artist)
-	* the copyright
-	* the image description
-* create a copy of the image with the minimum content of the tags (related to image data structure, such as the image size, resolution and orientation)
-* see where the photo was taken, in different ways (map, address, coordinate)
-* favorite, hide or delete a photo
-* quickly scroll through the albums of your iOS device
-* support for burst photos
-* view the tags directly from other apps with the PhotInfo's **Extension**
+* View **all the tags** (Exif, Tiff, IPTC, etc.) from a picture: in raw or in human readable format
+* Display an image with the main tags and the map of the location in a single view
+* Share an image with or without tags
+* Copy the key data or the content of individual tags
+* Share all the tags in raw or in human readable format or as a JSON
+* Edit or create a copy of the image with modified tags
+* Modify IPTC tags using values saved in a template
+* Create a copy of the image with the minimum content of info in the tags (related to image data structure, such as the image size, resolution and orientation)
+* Duplicate a photo with a custom name
+* Edit a batch of photos
+* See where the photo was taken, in different ways (map, address, coordinate)
+* Favorite or delete a photo
+* Quickly scroll through the albums of your iOS device
+* Look at different pictures in burst photos (iOS only)
+* See and share associated files: such as original image for edited photos or video for live ones
+* See advanced image payloads, such as Semantic Segmentation Mattes and HDR Gain Map data
+* **No data is shared**; only photo coordinates are sent to Apple's servers to retrieve a human-readable address - and nothing else leaves your device
+* View the tags directly from other apps with the PhotInfo's **Extension**
 
 PhotInfo app is in **costant development**, so new features will be added soon. Download now and stay tuned!
 
 ## A bit of history
 
+### 8.0: IPTC Editing, UI Refresh, Advanced Payloads
+
+Version 8 adds the possibility to edit many IPTC tags and to use a template for them. The UI is updated again: with settings now located directly in the views they affect. Moreover, the app is quicker and smaller.
+
+Version 8.01 introduces support for advanced image payloads, letting you view additional data such as Semantic Segmentation Mattes (used in portrait effects) and HDR Gain Maps, offering deeper insight into modern photo formats. PhotInfoOnMac
+
 ### 7.0: New UI
 
-A new simpler UI arrives in version 7.0: map and details views join in one; the toolbar moves to the bottom on iPhone and to the top on iPad and Mac.
+A new and simpler UI arrives in version 7.0: map and details views join in one; the toolbar moves to the bottom on iPhone and to the top on iPad and Mac.
 
-### 6.50: Multi Edit
+### 6.50: Batch Editing Arrives
 
-It is (finally) possible to edit more than one photo at a time. This has been a long-awaited request by the user community to save a lot of time in multiple editing.
+One of the most requested features from users became reality: editing multiple photos at once. This version made it easy to apply changes across a set of images, saving time and effort.
 
-### 6.10: On the Mac
+### 6.10: Welcome to the Mac
 
-With version 6.10, PhotInfo arrives on the Mac. The UI is tweaked for the Mac, but he app works like on iPhone/iPad: it only accesses the pictures in your Photos Library (the ones you see in the native Photos app). PhotInfo for Mac shows all the tags contained in these images and let you modifying the main tags.
-
-If you buy PhotInfo on one platform you can download the app on the other platforms for free.
+With version 6.10, PhotInfo arrives on the Mac. The UI is tweaked for the Mac: it edits only the pictures in your Photos Library (the ones you see in the native Photos app). PhotInfo for Mac shows all the tags contained in these images and let you modifying the main tags.
 
 ### 6.00: A complete rewrite
 
-After about 7 years on the store, PhotInfo needed a complete rewrite to keep up with the continuous evolutions of iOS, so the app has been rewritten from Objective C to Swift.
+After 7 years on the App Store, PhotInfo was entirely rewritten in Swift to ensure smoother performance and long-term maintainability. This version, based on the "PhotInfo NG" project, replaced the original Objective-C codebase.
 
-Between PhotInfo 5.00 and 6.00 I wrote PhotInfo NG from scratch, catching up with the PhotInfo's features. Reached the feature parity, PhotInfo switched to the NG code.
+### February 2013: 1.00
+
+PhotInfo was launched on the App Store on 7h February 2013.
 
 ## Links
 
@@ -107,7 +113,7 @@ Between PhotInfo 5.00 and 6.00 I wrote PhotInfo NG from scratch, catching up wit
 
 #### Requirements
 
-iPhone/iPad: iOS 13.0, iPadOS 13.0 or later. ~~ Mac: macOS 10.15 (Catalina) or 11.0 (Big Sur).  
+iPhone/iPad: iOS 13.0, iPadOS 13.0 or later. ~~ Mac: macOS 10.15 (Catalina) or 11.0 (Big Sur).
 
 #### Contact
 For any questions or to request a promo code email me at <a href="mailto:qebapps@gmail.com">qebapps@gmail.com</a>
@@ -115,4 +121,3 @@ For any questions or to request a promo code email me at <a href="mailto:qebapps
 You can find the latest news about PhotInfo on [this page](https://qebapps.wordpress.com/category/news/) or on [Twitter](https://twitter.com/qebapps).
 
 Handmade with ❤️ by Enrico Bonaldo
-
